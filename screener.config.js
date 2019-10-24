@@ -3,18 +3,14 @@ module.exports = {
   projectRepo: 'christiangorney/Christian-Screener-io',
 
   // this example assumes Environment Variables listed below exist on your system:
-  apiKey: process.env.SCREENER_API_KEY,
+  apiKey: '04c399f6-fdfa-4795-8d8f-9920ed26a382',
 
   // array of UI states to capture visual snapshots of.
   // each state consists of a url and a name.
   states: [
     {
-      url: 'http://paerscba0695/pacrs-qa5/Home.aspx',
+      url: 'https://pacrs-qa2.prudential.com/',
       name: 'PACRS QA5 HOME'
-    },
-    {
-      url: 'http://paerscba0695/pacrs-qa5/ContactReport.aspx',
-      name: 'PACRS QA5 CONTACTS-DETAILS'
     }
   ]
 };
